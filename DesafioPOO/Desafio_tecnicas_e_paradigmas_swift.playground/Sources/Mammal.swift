@@ -26,7 +26,7 @@ public class Mammal: Pet {
   }
 
   // to do: adicionar throw nos serviços que o mamífero não possuir
-  override func getPrice(service: Services) -> Double {
+    public override func getPrice(service: Services) -> Double {
     switch service{
       case .bath:
       return 64.90

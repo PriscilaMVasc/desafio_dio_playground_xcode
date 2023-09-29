@@ -15,7 +15,7 @@ public class Bird: Pet {
      super.init(name: name, weight: weight, age: age, gender: gender)
    }
   // to do: adicionar throw nos serviços que o pássaro não possuir
-  override func getPrice(service: Services) -> Double {
+  public override func getPrice(service: Services) -> Double {
     switch service{
       case .bath, .grooming, .vaccination:
       return 0.0
